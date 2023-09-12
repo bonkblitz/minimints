@@ -29,7 +29,7 @@ export default function Home() {
       console.log(cid)
 
       const nftdata = {
-        name: "Bonk Blitz ${id}",
+        name,
         description,
         symbol: "",
         image: `https://ipfs.io/ipfs/${cid}`,
