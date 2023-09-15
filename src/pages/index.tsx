@@ -33,7 +33,7 @@ export default function Home() {
       let createNftResponse
       for (var i = 0; i < count; i++) {
         const nftdata = {
-          name: `${name} #${i+6331}`,
+          name: `${name} #${i+1+6331}`,
           description,
           symbol: "",
           image: `https://ipfs.io/ipfs/${cid}`,
